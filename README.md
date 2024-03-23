@@ -9,6 +9,4 @@
  6. 테이터를 들고오는 동안 로딩 스피너가 돈다.
 
 ### 미리보기
-![image](https://github.com/EUNSOL0313/React-Weather-app/assets/159598570/fefbc6e0-93dd-41e2-ae09-d36183cfc26a)
-
-
+<img width="1000" alt="스크린샷 2024-03-23 오후 11 20 56" src="https://github.com/EUNSOL0313/React-Weather-app/assets/159598570/43f4cb3c-0c8e-4a50-acb5-be9c292f1e36">
