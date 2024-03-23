@@ -15,6 +15,7 @@ const API_KEY = '4981d7f9cbab6c15c49688b7d0447386'
 
 function App() {
    const [weather, setWeather] = useState(null)
+   const cities = ['Seoul', 'Paris', 'NewYork', 'Barcelona']
 
    const getCurrentLocation = () => {
       console.log('getCurrentLocation')
@@ -31,7 +32,7 @@ function App() {
       let response = await fetch(url)
       let data = await response.json()
       setWeather(data)
-      console.log('현재날씨는?', data)
+      //console.log('현재날씨는?', data)
    }
 
    useEffect(() => {
@@ -42,7 +43,7 @@ function App() {
       <div>
          <div className="container">
             <WeatherBox weather={weather} />
-            <WeatherButton />
+            <WeatherButton cities={cities} />
          </div>
       </div>
    )
