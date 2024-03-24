@@ -22,9 +22,28 @@ body {
    padding: 50px;
    margin-bottom: 5px;
 }
+.location_title {
+   font-size: 1.5em;
+   color: #0b0531;
+}
+.weather-box h1 {
+   color: #0b0531;
+}
+.weather-box h3 {
+   color: #0b0531;
+}
+.weather-box h5 {
+   color: #0b0531;
+}
 
-.weather-button button {
+.menu-container button {
    border-color: rgb(241, 241, 165);
    background-color: rgb(241, 241, 165);
    margin: 0 2px;
+}
+
+.menu-container button:hover {
+   border: rgb(2, 2, 53);
+   background-color: rgb(2, 2, 53);
+   color: #fff;
 }
