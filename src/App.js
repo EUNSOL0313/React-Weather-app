@@ -14,7 +14,7 @@ import { Container } from 'react-bootstrap'
 // 5. 현재위치기반 날씨버튼을 클릭하면 다시 현재위치 기반 날씨가 나온다.
 //6. 테이터를 들고오는 동안 로딩 스피너가 돈다.
 
-const API_KEY = '4981d7f9cbab6c15c49688b7d0447386'
+const API_KEY = process.env.REACT_APP_API_KEY
 const cities = ['Seoul', 'Paris', 'New York', 'Barcelona']
 
 function App() {
