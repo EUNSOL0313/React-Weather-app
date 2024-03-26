@@ -1,4 +1,6 @@
-# OpenweatherAPI 이용한 React Wheather-app 
+# OpenweatherAPI 이용한 React Wheather-app
+
+## url : https://sol-weather-app.netlify.app/
 
 ### user story
  1. 앱이 실행되자 마자 현재위치기반의 날씨가 보인다
